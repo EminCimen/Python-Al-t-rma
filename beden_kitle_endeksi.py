@@ -1,0 +1,5 @@
+print("Beden Kitle Endeksi Hesaplayan Program")
+boy = float(input("Boyunuzu giriniz (metre cinsinden)>"))
+kilo = int(input("Kilonuzu giriniz(kg cinsinden)>"))
+endeks = kilo / ( boy * boy )
+print("Beden kitle endeksiniz {}".format(endeks))

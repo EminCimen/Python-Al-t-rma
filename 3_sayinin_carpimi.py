@@ -1,0 +1,5 @@
+print("Girdiğiniz 3 sayı çarpılacak ve sonuç ekrana bastırılacak")
+a = int(input("Bir sayi giriniz>"))
+b = int(input("Bir sayi giriniz>"))
+c = int(input("Bir sayi giriniz>"))
+print("Girdiğiniz sayıların çarpımı : {}".format( a * b * c ))
